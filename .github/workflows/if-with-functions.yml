@@ -1,4 +1,4 @@
-name: Nice If example
+name: Nice If example 2
 on:
   push:
     branches:
