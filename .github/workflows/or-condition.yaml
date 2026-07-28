@@ -1,0 +1,10 @@
+name: Or-Condition Demo
+on: push
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run for tahiratareef2710-wq or Hari
+        if: github.actor == 'tahiratareef2710-wq' || github.actor == 'Hari'
+        run: echo "Running for triggering"
+      
